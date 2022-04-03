@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import { motion } from "framer-motion"
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 function Section1({myHome}) {
@@ -17,7 +17,7 @@ function Section1({myHome}) {
       </motion.div>
      
       {/* <img className='object-cover w-screen h-screen rounded-bl-[50rem]' src='https://www.payakornber.com/wp-content/uploads/revslider/slider_8/video-bg.jpg'/> */}
-      <motion.div initial={{scale:0}} animate={{scale:1,y:[0,20,0]}} transition={{duration:1.2 }} className='absolute right-30 sm:right-32 flex justify-center items-center text-white bg-[#F97316] rounded-3xl pl-10 pr-10 pt-5 pb-5 font-bold'>
+      <motion.div initial={{scale:0}} drag dragConstraints={{top:0 , right:0 , left:0, bottom:0}} animate={{scale:1,y:[0,20,0]}} transition={{duration:1.2 }} className='absolute right-30 sm:right-32 flex justify-center items-center text-white bg-[#F97316] rounded-3xl pl-10 pr-10 pt-5 pb-5 font-bold'>
         <div>
           <h1 className='text-[12px] sm:text-[16px] text-black'><span className='text-[20px] sm:text-[20px]'>My</span> name is <span className='text-white'>Amonthep Tanlaeo</span></h1>
           <h1 className='text-[12px] sm:text-[16px]'>Graduated: <span className='text-black'>Kasetsart University</span></h1>
