@@ -16,16 +16,16 @@ function Section2({mySkill}) {
     </div>
     <div className='flex justify-evenly items-center w-full'>
         <div data-aos='fade-down' >
-            <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'/>
+            <motion.img   animate={{y:[0,30,0]}} transition={{duration:2 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'/>
         </div>
         <div data-aos='fade-down' >
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://camo.githubusercontent.com/c457309037aabdce151cc0e197d6db98234a31636ef41f2cc1c339832fe20de3/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f6c6f676f732f6e6578746a732d6c6f676f2e706e67'/>
+            <motion.img    animate={{y:[30,0,30]}} transition={{duration:2 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://camo.githubusercontent.com/c457309037aabdce151cc0e197d6db98234a31636ef41f2cc1c339832fe20de3/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f6c6f676f732f6e6578746a732d6c6f676f2e706e67'/>
         </div>
         <div data-aos='fade-down' >
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'/>
+            <motion.img    animate={{y:[0,30,0]}} transition={{duration:2 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'/>
         </div>
         <div data-aos='fade-down' >
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://www.svgrepo.com/show/303360/nodejs-logo.svg'/>
+            <motion.img    animate={{y:[30,0,30]}} transition={{duration:2 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://www.svgrepo.com/show/303360/nodejs-logo.svg'/>
         </div>
     </div>
    

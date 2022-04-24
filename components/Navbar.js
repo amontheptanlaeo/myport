@@ -51,7 +51,7 @@ function Navbar({mySkill , myAbout , myContact , myHome}) {
                 <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
             </svg>
         </motion.button>
-        <div className={`absolute ${isOpen ? 'right-0 fixed':'right-[-1000px]'} sm:hidden w-full top-0 bg-[#8400ff] h-screen flex justify-center items-center flex-col gap-10 transition-all duration-300 ease-linear`}>
+        <div className={`absolute ${isOpen ? 'right-0 fixed':'right-[-1000px]'} sm:hidden w-full top-0 bg-[#2cb851] h-screen flex justify-center items-center flex-col gap-10 transition-all duration-300 ease-linear`}>
             <div className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#591c92]' onClick={()=>setIsOpen(!isOpen)}>X</div>
             <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#591c92]' onClick={() => {
               myHome.current.scrollIntoView() 
@@ -62,19 +62,19 @@ function Navbar({mySkill , myAbout , myContact , myHome}) {
             <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#591c92]'onClick={() =>{ 
               myAbout.current.scrollIntoView()
               setIsOpen(!isOpen)
-              }}>About</p>
+              }}>Certificate</p>
             <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#591c92]'onClick={() => {
               myContact.current.scrollIntoView()
               setIsOpen(!isOpen)
-              }}>Contact</p>
+              }}>About</p>
         </div>
         <motion.ul variants={container}
             initial="hidden"
             animate="visible" className='gap-6 hidden sm:flex'>
-            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#8400ff] hover:border-[#8400ff] text-[16px] md:text-[20px]' onClick={() => myHome.current.scrollIntoView()}>Home</motion.li>
-            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#8400ff] hover:border-[#8400ff] text-[16px] md:text-[20px]'  onClick={() => mySkill.current.scrollIntoView() }>Skill</motion.li>
-            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#8400ff] hover:border-[#8400ff] text-[16px] md:text-[20px]' onClick={() => myAbout.current.scrollIntoView()}>Certificate</motion.li>
-            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#8400ff] hover:border-[#8400ff] text-[16px] md:text-[20px]'onClick={() => myContact.current.scrollIntoView()}>About</motion.li>
+            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#2cb851] hover:border-[#2cb851] text-[16px] md:text-[20px]' onClick={() => myHome.current.scrollIntoView()}>Home</motion.li>
+            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#2cb851] hover:border-[#2cb851] text-[16px] md:text-[20px]'  onClick={() => mySkill.current.scrollIntoView() }>Skill</motion.li>
+            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#2cb851] hover:border-[#2cb851] text-[16px] md:text-[20px]' onClick={() => myAbout.current.scrollIntoView()}>Certificate</motion.li>
+            <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#2cb851] hover:border-[#2cb851] text-[16px] md:text-[20px]'onClick={() => myContact.current.scrollIntoView()}>About</motion.li>
         </motion.ul>
     </div>
   )
