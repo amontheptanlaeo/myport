@@ -20,10 +20,10 @@ function Section4({myContact}) {
           </div>
       </div>
       <div data-aos='fade-down' className='mb-20 bg-[#fff] p-5 rounded-lg cursor-default shadow-2xl shadow-[#41B799]'>
-          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'* Graduated =>'}</span> Kasetsart University 🏫</p>
-          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'* Field of Study =>'}</span> Computer Science 🧑‍💻</p>
-          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'* GPA =>'}</span> 3.32 🎓</p>
-          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'* Email =>'}</span> Amontheptanlaeo111@gmail.com 📧</p>
+          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'Graduated =>'}</span> Kasetsart University 🏫</p>
+          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'Field of Study =>'}</span> Computer Science 🧑‍💻</p>
+          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'GPA =>'}</span> 3.32 🎓</p>
+          <p className='text-black text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>{'Email =>'}</span> Amontheptanlaeo111@gmail.com 📧</p>
       </div>
   </div>
   )
