@@ -3,21 +3,22 @@ import { motion } from "framer-motion"
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 function Section1({myHome}) {
   return (
-    <div ref={myHome} className='h-screen bg-black text-white flex justify-center items-center rounded-bl-[10rem] sm:rounded-bl-[20rem] md:rounded-bl-[45rem]  overflow-hidden mb-20 transition-all duration-300 ease-linear'>
+    <div ref={myHome} className='h-screen bg-black text-white flex justify-center items-center rounded-bl-[10rem] sm:rounded-bl-[20rem] md:rounded-bl-[45rem]  overflow-hidden mb-10 md:mb-20 transition-all duration-300 ease-linear'>
       <motion.div initial={{scale:0.2}} animate={{scale:1 , rotate:360}} transition={{duration:1}}>
         <Player
               autoplay
               loop
-              src="https://assets9.lottiefiles.com/packages/lf20_l4ny0jjm.json"
+              src='https://assets3.lottiefiles.com/packages/lf20_l4ny0jjm.json'
+              //src="https://assets9.lottiefiles.com/packages/lf20_l4ny0jjm.json"
               // className='w-full h-full rotate-90 sm:rotate-180 md:rotate-0'
-              className=' w-screen h-screen'
+              className=' w-screen h-screen transition-all duration-300 ease-linear'
               >
               <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
           </Player>
       </motion.div>
      
       {/* <img className='object-cover w-screen h-screen rounded-bl-[50rem]' src='https://www.payakornber.com/wp-content/uploads/revslider/slider_8/video-bg.jpg'/> */}
-      <motion.div initial={{scale:0}} drag dragConstraints={{top:0 , right:0 , left:0, bottom:0}} animate={{scale:1,y:[0,20,0]}} transition={{duration:1.2 }} className='absolute right-30 sm:right-32 flex justify-center items-center text-white bg-[#F97316] rounded-3xl pl-10 pr-10 pt-5 pb-5 font-bold'>
+      <motion.div initial={{scale:0}} drag dragConstraints={{top:0 , right:0 , left:0, bottom:0}} animate={{scale:1,y:[0,20,0]}} transition={{duration:1.2 }} className='absolute right-30 sm:right-32 flex justify-center items-center text-white bg-[#8400ff] cursor-grabbing rounded-3xl pl-10 pr-10 pt-5 pb-5 font-bold'>
         <div>
           <h1 className='text-[12px] sm:text-[16px] text-black'><span className='text-[20px] sm:text-[20px]'>My</span> name is <span className='text-white'>Amonthep Tanlaeo</span></h1>
           <h1 className='text-[12px] sm:text-[16px]'>Graduated: <span className='text-black'>Kasetsart University</span></h1>

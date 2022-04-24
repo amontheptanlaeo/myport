@@ -10,22 +10,22 @@ function Section2({mySkill}) {
     });
   }, []);
   return (
-    <div ref={mySkill} className='h-screen bg-black text-white flex justify-center items-center overflow-hidden flex-col rounded-tr-[10rem] sm:rounded-tr-[20rem] md:rounded-tr-[30rem]'>
+    <div ref={mySkill} className='h-screen bg-black text-white flex justify-center items-center overflow-hidden  mb-10 md:mb-20 flex-col rounded-tr-[5rem] rounded-br-[5rem] sm:rounded-tr-[10rem] sm:rounded-br-[10rem] transition-all duration-300 ease-linear mr-5 sm:mr-10 md:mr-20'>
     <div data-aos='fade-up' className='mb-20'>
-        <h1 className='text-white text-[30px] font-bold tracking-wider sm:text-[50px]'>My Skill</h1>
+        <h1 className='text-white text-[30px] font-bold tracking-wider sm:text-[50px] transition-all duration-300 ease-linear'>My Skill</h1>
     </div>
-    <div className='flex justify-center items-center w-full'>
-        <div data-aos='fade-down' className='m-auto'>
-            <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-24 h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'/>
+    <div className='flex justify-evenly items-center w-full'>
+        <div data-aos='fade-down' >
+            <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'/>
         </div>
-        <div data-aos='fade-down' className='m-auto'>
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-24 h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2' src='https://camo.githubusercontent.com/c457309037aabdce151cc0e197d6db98234a31636ef41f2cc1c339832fe20de3/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f6c6f676f732f6e6578746a732d6c6f676f2e706e67'/>
+        <div data-aos='fade-down' >
+            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://camo.githubusercontent.com/c457309037aabdce151cc0e197d6db98234a31636ef41f2cc1c339832fe20de3/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f6c6f676f732f6e6578746a732d6c6f676f2e706e67'/>
         </div>
-        <div data-aos='fade-down' className='m-auto'>
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-24 h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'/>
+        <div data-aos='fade-down' >
+            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png'/>
         </div>
-        <div data-aos='fade-down' className='m-auto'>
-            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-24 h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2' src='https://www.svgrepo.com/show/303360/nodejs-logo.svg'/>
+        <div data-aos='fade-down' >
+            <motion.img    animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-16 h-w-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='https://www.svgrepo.com/show/303360/nodejs-logo.svg'/>
         </div>
     </div>
    
