@@ -12,7 +12,7 @@ html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #2cb851;
+    background-color: #8400ff;
     font-family: 'Orbitron', sans-serif;
     scroll-behavior: smooth;
 }
@@ -34,11 +34,11 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2cb851;
+  background: #8400ff;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #008022;
+  background: #6701c7;
 }
 

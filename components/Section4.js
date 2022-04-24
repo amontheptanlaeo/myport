@@ -16,10 +16,10 @@ function Section4({myContact}) {
       </div>
       <div className='flex justify-center items-center w-full mb-20'>
           <div data-aos='flip-left' className='m-auto'>
-              <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-[150px]  h-[150px] md:w-[250px] md:h-[250px] lg:w-[300px] lg:h-[300px] object-cover object-center rounded-full bg-[#2cb851] flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='/Images/Me.jpg'/>
+              <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-[150px]  h-[150px] md:w-[250px] md:h-[250px] lg:w-[300px] lg:h-[300px] object-cover object-center rounded-full bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='/Images/Me.jpg'/>
           </div>
       </div>
-      <div data-aos='fade-down' className='mb-20 bg-[#2cb851] p-5 rounded-lg cursor-default'>
+      <div data-aos='fade-down' className='mb-20 bg-[#8400FF] p-5 rounded-lg cursor-default'>
           <p className='text-white text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>Graduated:</span> Kasetsart University 🏫</p>
           <p className='text-white text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>Field of Study:</span> Computer Science 🧑‍💻</p>
           <p className='text-white text-[12px] font-bold tracking-wider sm:text-[20px] md:text-[25px] transition-all duration-300 ease-linear'><span className='text-black'>GPA:</span> 3.32 🎓</p>
