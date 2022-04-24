@@ -16,7 +16,7 @@ function Section3({myAbout}) {
     </div>
     <div className='flex justify-center items-center w-full'>
         <div data-aos='flip-down' className='m-auto'>
-            <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-[300px] sm:w-[400px] md:w-[550px] lg:w-[700px] bg-white flex justify-center items-center p-2 transition-all duration-300 ease-linear' src='/Images/Certificate.jpg'/>
+            <motion.img   animate={{y:[0,20,0]}} transition={{duration:1.5 , repeat:Infinity}}   className='cursor-pointer w-[300px] sm:w-[400px] md:w-[550px] lg:w-[700px] bg-white flex justify-center items-center p-2 shadow-xl shadow-[#A29CEC]  transition-all duration-300 ease-linear' src='/Images/Certificate.jpg'/>
         </div>
     </div>
    

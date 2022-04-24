@@ -4,16 +4,15 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 function Section1({myHome}) {
   return (
     <div ref={myHome} className='h-screen bg-black text-black flex justify-center items-center rounded-bl-[10rem] sm:rounded-bl-[20rem] md:rounded-bl-[45rem]  overflow-hidden mb-10 md:mb-20 transition-all duration-300 ease-linear'>
-      <motion.div initial={{scale:2}} animate={{scale:1}} transition={{duration:1}}>
+      <motion.div initial={{scale:1.5}} animate={{scale:1}} transition={{duration:1}}>
         <Player
               autoplay
               loop
-              src='https://assets9.lottiefiles.com/packages/lf20_g3dzz0wz.json'
+              src='https://assets4.lottiefiles.com/packages/lf20_g3dzz0wz.json'
               //src="https://assets9.lottiefiles.com/packages/lf20_l4ny0jjm.json"
               // className='w-full h-full rotate-90 sm:rotate-180 md:rotate-0'
-              className='w-[1800px] h-screen sm:w-[2000px] sm:h-screen transition-all duration-300 ease-linear'
+              className='w-[1650px] h-screen sm:w-[2000px] transition-all duration-300 ease-linear'
               >
-              <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
           </Player>
       </motion.div>
      
