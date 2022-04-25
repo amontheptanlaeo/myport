@@ -15,7 +15,6 @@ function Section1({myHome}) {
               >
           </Player>
       </motion.div>
-     
       {/* <img className='object-cover w-screen h-screen rounded-bl-[50rem]' src='https://www.payakornber.com/wp-content/uploads/revslider/slider_8/video-bg.jpg'/> */}
       <motion.div initial={{scale:0}} drag dragConstraints={{top:0 , right:0 , left:0, bottom:0}} animate={{scale:1,y:[0,20,0]}} transition={{duration:1.2 }} className='absolute right-30 top-80 sm:right-32 flex justify-center items-center text-black bg-[#62BEF0] shadow-lg shadow-[#66d9a983]  cursor-grabbing rounded-3xl pl-10 pr-10 pt-5 pb-5 test font-bold transition-all duration-300 ease-linear'>
         <div>
