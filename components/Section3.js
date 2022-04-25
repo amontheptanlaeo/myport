@@ -10,7 +10,7 @@ function Section3({myAbout}) {
     });
   }, []);
   return (
-    <div ref={myAbout} className='h-screen bg-black text-white mb-10 md:mb-20 flex justify-center items-center overflow-hidden flex-col rounded-tl-[5rem] sm:rounded-tl-[10rem] rounded-bl-[5rem] sm:rounded-bl-[10rem] transition-all duration-300 ease-linear ml-5 sm:ml-10 md:ml-20'>
+    <div ref={myAbout} className='h-screen bg-black text-white mb-10 md:mb-20 flex justify-center items-center overflow-hidden flex-col rounded-tl-[5rem] sm:rounded-tl-[10rem] rounded-bl-[5rem] sm:rounded-bl-[10rem] transition-all duration-300 ease-linear ml-5 sm:ml-10 md:ml-20 shadow-2xl shadow-[#EBCF55]'>
     <div data-aos='fade-up' className='mb-20'>
         <h1 className='text-white text-[30px] font-bold tracking-wider sm:text-[50px] transition-all duration-300 ease-linear'>My Certificate</h1>
     </div>

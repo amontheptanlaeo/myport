@@ -10,7 +10,7 @@ function Section2({mySkill}) {
     });
   }, []);
   return (
-    <div ref={mySkill} className='h-screen bg-black text-white flex justify-center items-center overflow-hidden  mb-10 md:mb-20 flex-col rounded-tr-[5rem] rounded-br-[5rem] sm:rounded-tr-[10rem] sm:rounded-br-[10rem] transition-all duration-300 ease-linear mr-5 sm:mr-10 md:mr-20'>
+    <div ref={mySkill} className='h-screen bg-black text-white flex justify-center items-center overflow-hidden  mb-10 md:mb-20 flex-col rounded-tr-[5rem] rounded-br-[5rem] sm:rounded-tr-[10rem] sm:rounded-br-[10rem] transition-all duration-300 ease-linear mr-5 sm:mr-10 md:mr-20 shadow-2xl shadow-[#53B8EC]'>
     <div data-aos='fade-up' className='mb-20'>
         <h1 className='text-white text-[30px] font-bold tracking-wider sm:text-[50px] transition-all duration-300 ease-linear'>My Skill</h1>
     </div>
