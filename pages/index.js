@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Navbar , Section1 , Section2 , Section3 , Section4 } from '../components'
+import { Navbar , Section1 , Section2 , Section3 , Section4 , Section5} from '../components'
 import React , { useRef }  from 'react'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
   const mySkill = useRef(null)
   const myAbout = useRef(null)
   const myContact = useRef(null)
+  const myCrypto = useRef(null)
   return (
     <div>
       <Head>
@@ -18,11 +19,12 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet"/>
       </Head>
-      <Navbar mySkill={mySkill} myAbout={myAbout} myContact={myContact} myHome={myHome} />
+      <Navbar mySkill={mySkill} myAbout={myAbout} myContact={myContact} myHome={myHome} myCrypto={myCrypto}/>
       <Section1 myHome={myHome}/>
       <Section2 mySkill={mySkill}/>
       <Section3 myAbout={myAbout}/>
       <Section4 myContact={myContact}/>
+      <Section5 myCrypto={myCrypto}/>
   </div>
   
   )

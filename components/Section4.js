@@ -10,7 +10,7 @@ function Section4({myContact}) {
     });
   }, []);
   return (
-    <div ref={myContact} className='h-screen bg-black text-white mb-10 md:mb-20 flex justify-center items-center overflow-hidden flex-col rounded-tr-[5rem] sm:rounded-tr-[10rem] rounded-br-[5rem] sm:rounded-br-[10rem] transition-all duration-300 ease-linear mr-5 sm:mr-10 md:mr-20 shadow-2xl shadow-[#EA88AF]'>
+    <div ref={myContact} className='h-screen bg-black text-white mb-7 md:mb-10 flex justify-center items-center overflow-hidden flex-col rounded-tr-[5rem] sm:rounded-tr-[10rem] rounded-br-[5rem] sm:rounded-br-[10rem] transition-all duration-300 ease-linear mr-2 sm:mr-5 shadow-2xl shadow-[#EA88AF]'>
       <div data-aos='fade-up' className='mb-20'>
           <h1 className='text-white text-[30px] font-bold tracking-wider sm:text-[50px] transition-all duration-300 ease-linear'>My Infomation</h1>
       </div>
