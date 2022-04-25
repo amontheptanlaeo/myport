@@ -53,22 +53,22 @@ function Navbar({mySkill , myAbout , myContact , myHome}) {
             </svg>
         </motion.button>
         <div className={` ${isOpen ? 'right-0 fixed block':'right-[-700px] hidden'} sm:hidden w-full top-0 bg-[#E4778C] h-screen flex justify-center items-center flex-col gap-10 transition-all duration-300 ease-linear`}>
-            <div className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]' onClick={()=>setIsOpen(!isOpen)}>X</div>
-            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]' onClick={() => {
+            <div className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]' onClick={()=>setIsOpen(!isOpen)}>X</div>
+            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]' onClick={() => {
               myHome.current.scrollIntoView() 
               setIsOpen(!isOpen)}} >Home</p>
-            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]' onClick={() => {
+            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]' onClick={() => {
               mySkill.current.scrollIntoView()
               setIsOpen(!isOpen)}}>Skill</p>
-            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]'onClick={() =>{ 
+            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]'onClick={() =>{ 
               myAbout.current.scrollIntoView()
               setIsOpen(!isOpen)
               }}>Certificate</p>
-            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]'onClick={() => {
+            <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]'onClick={() => {
               myContact.current.scrollIntoView()
               setIsOpen(!isOpen)
               }}>About</p>
-              <Link href={'https://github.com/amontheptanlaeo'} tar><a target='_blank'><p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]'onClick={() => {
+              <Link href={'https://github.com/amontheptanlaeo'} tar><a target='_blank'><p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]'onClick={() => {
               setIsOpen(!isOpen)
               }}>Github</p></a></Link>
         </div>

@@ -12,7 +12,9 @@ html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #62BEF0;
+    /* background-color: #62BEF0; */
+    background: rgb(84,185,237);
+background: linear-gradient(112deg, rgba(84,185,237,1) 0%, rgba(231,128,153,1) 36%, rgba(116,224,180,1) 60%, rgba(236,207,83,1) 82%, rgba(162,156,237,1) 96%);
     font-family: 'Orbitron', sans-serif;
     scroll-behavior: smooth;
 }
