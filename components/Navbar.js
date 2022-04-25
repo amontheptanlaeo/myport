@@ -68,6 +68,9 @@ function Navbar({mySkill , myAbout , myContact , myHome}) {
               myContact.current.scrollIntoView()
               setIsOpen(!isOpen)
               }}>About</p>
+              <Link href={'https://github.com/amontheptanlaeo'} tar><a target='_blank'><p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#000000] text-[#000000]'onClick={() => {
+              setIsOpen(!isOpen)
+              }}>Github</p></a></Link>
         </div>
         <motion.ul variants={container}
             initial="hidden"
