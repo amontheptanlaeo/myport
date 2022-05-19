@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Navbar , Section1 , Section2 , Section3 , Section4 , Section5} from '../components'
+import { Navbar , Section1 , Section2 , Section3 , Section4 , Section5 , Section6} from '../components'
 import React , { useRef }  from 'react'
 
 export default function Home() {
@@ -9,6 +8,7 @@ export default function Home() {
   const myAbout = useRef(null)
   const myContact = useRef(null)
   const myCrypto = useRef(null)
+  // const myProject = useRef(null)
   return (
     <div>
       <Head>
@@ -25,6 +25,7 @@ export default function Home() {
       <Section3 myAbout={myAbout}/>
       <Section4 myContact={myContact}/>
       <Section5 myCrypto={myCrypto}/>
+      {/* <Section6 myProject={myProject}/> */}
   </div>
   
   )

@@ -72,6 +72,10 @@ function Navbar({mySkill , myAbout , myContact , myHome , myCrypto}) {
               myCrypto.current.scrollIntoView()
               setIsOpen(!isOpen)
               }}>Coin</p>
+              {/* <p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]'onClick={() => {
+              myProject.current.scrollIntoView()
+              setIsOpen(!isOpen)
+              }}>Web3</p> */}
               <Link href={'https://github.com/amontheptanlaeo'} tar><a target='_blank'><p className='cursor-pointer transition-all duration-100 ease-linear hover:text-[#fff] text-[#fff]'onClick={() => {
               setIsOpen(!isOpen)
               }}>Github</p></a></Link>
@@ -84,6 +88,7 @@ function Navbar({mySkill , myAbout , myContact , myHome , myCrypto}) {
             <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#7CE4BB] hover:border-[#7CE4BB] text-[16px] md:text-[20px]' onClick={() => myAbout.current.scrollIntoView()}>Certificate</motion.li>
             <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#BF3C21] hover:border-[#BF3C21] text-[16px] md:text-[20px]'onClick={() => myContact.current.scrollIntoView()}>About</motion.li>
             <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#EBCD51] hover:border-[#EBCD51] text-[16px] md:text-[20px]'onClick={() => myCrypto.current.scrollIntoView()}>Coin</motion.li>
+            {/* <motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#64C1ED] hover:border-[#64C1ED] text-[16px] md:text-[20px]'onClick={() => myProject.current.scrollIntoView()}>Web3</motion.li> */}
             <Link href={'https://github.com/amontheptanlaeo'} tar><a target='_blank'><motion.li variants={item} className='cursor-pointer p-3 hover:border-b-2 transition-all duration-100 ease-linear hover:py-2 hover:text-[#A39EEF] hover:border-[#A39EEF] text-[16px] md:text-[20px]'>Github</motion.li></a></Link>
         </motion.ul>
     </div>
