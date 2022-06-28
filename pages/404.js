@@ -9,8 +9,6 @@ function NotFound404() {
             autoplay
             loop
             src='https://assets5.lottiefiles.com/packages/lf20_q2pevjuc.json'
-            //src="https://assets9.lottiefiles.com/packages/lf20_l4ny0jjm.json"
-            // className='w-full h-full rotate-90 sm:rotate-180 md:rotate-0'
             className=' w-screen h-screen'
             >
             <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
